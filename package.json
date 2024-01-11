@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "noom...",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "nodemon",
     "start": "node src/server.js"
