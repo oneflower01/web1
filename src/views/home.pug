@@ -6,9 +6,18 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title Noom
         link(rel="stylesheet", href="https://unpkg.com/mvp.css")
+        link(rel="stylesheet" type="text/css" href="/public/css/style.css")
     body 
         header 
-            h1 Noom 
+            h1 신세경사단
         main 
-            h2 welcome to noom
+            h2 welcome to 신세경사단
+
+            #room 
+                ul
+                form
+                    input(placeholder="message", required, type="text")
+                    button Send
+
+            script(src="/socket.io/socket.io.js")
             script(src="/public/js/app.js")
