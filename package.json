@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "build": "webpack"
+    "start": "node src/server.js"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
